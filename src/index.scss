@@ -1,0 +1,47 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-light: #e14f67;
+  --primary-main: #dc0a2d;
+  --primary-dark: #a80823;
+  --primary-darkest: #5c0513;
+  --complementary-main: #21a4db;
+  --complementary-dark: #00648f;
+  --accent-yellow: #dbd321;
+  --accent-green: #008f1b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+
+  span {
+    font-family: 'Bebas Neue', cursive;
+    color: var(--primary-darkest);
+  }
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

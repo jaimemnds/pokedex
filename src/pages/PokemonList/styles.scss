@@ -1,0 +1,23 @@
+.pokemon-list-page {
+  width: 100%;
+  position: relative;
+
+  .pokemon-list-navigator {
+    position: absolute;
+    right: 0;
+    top: -32px;
+
+    .icon-button {
+      margin: 2px;
+    }
+  }
+
+  .pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
